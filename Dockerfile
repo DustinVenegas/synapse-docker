@@ -13,5 +13,6 @@ COPY entrypoint.sh /entrypoint.sh
 
 VOLUME /data
 EXPOSE 8448
+EXPOSE 8008
 ENTRYPOINT ["/entrypoint.sh"]
 CMD ["serve"]
