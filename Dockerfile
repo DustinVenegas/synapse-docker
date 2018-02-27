@@ -17,6 +17,7 @@ RUN apk --no-cache add \
     py2-jinja2 \
     py2-jsonschema \
     py2-ldap3 \
+    py2-lxml \
     py2-msgpack \
     py2-netaddr \
     py2-openssl \
