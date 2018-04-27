@@ -34,7 +34,7 @@ RUN apk --no-cache add \
     python2-dev \
     py-twisted \
     su-exec \
-    && pip install https://github.com/matrix-org/synapse/archive/v0.26.0.tar.gz \
+    && pip install https://github.com/matrix-org/synapse/archive/v0.28.0.tar.gz \
     && rm -rf /root/.cache \
     && addgroup -g 333 -S synapse \
     && adduser -u 333 -S -G synapse synapse
